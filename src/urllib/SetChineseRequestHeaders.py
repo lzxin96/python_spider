@@ -1,7 +1,7 @@
 from urllib import request
 from urllib.parse import unquote,urlencode
 import base64
-
+# 设置中文请求头练习
 url = 'http://httpbin.org/post'# Request类构造方法必须参数
 header = {
     'User-Agent':'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
