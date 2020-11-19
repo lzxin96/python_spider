@@ -1,13 +1,15 @@
-from urllib.request import HTTPPasswordMgrWithDefaultRealm,HTTPBasicAuthHandler,build_opener
+from urllib.request import HTTPPasswordMgrWithDefaultRealm, HTTPBasicAuthHandler, build_opener
 from urllib.error import URLError
+
 username = 'bill'
 password = '1234'
 url = 'http://localhost:5000'
-
+# HTTPPasswordMgrWithDefaultRealm对象封装请求字段数据
 p = HTTPPasswordMgrWithDefaultRealm()
 # 封装realm, url和用户名、密码
 # 第一个参数realm，若指定则需与服务器端WWW-Authenticate字段指定的realm一致
 p.add_password('localhost', url, username, password)
+# HTTPBasicAuthHandler用于处理管理认证
 auth_handler = HTTPBasicAuthHandler(p)
 # 发送HTTP请求
 opener = build_opener(auth_handler)
