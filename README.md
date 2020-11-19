@@ -4,4 +4,14 @@
 * 爬取HTML文件中url：src/firstspider/MySpider.py
 * 爬取博客园标题和url：src/firstspider/BlogSpider.py
 #### urllib库实例
-1. 1
+1. urlopen函数发送http get请求：src/urllib/SendRequest.py
+2. urlopen函数发送http post请求：src/urllib/PostRequest.py
+3. 服务器请求超时异常处理（try...except)：src/urllib/TimeOut.py
+4. 设置http请求头(无）：src/urllib/SetRequestHeaders.py
+5. 设置中文http请求头：src/urllib/SetChineseRequestHeaders.py
+6. 请求基础验证页面：
+    src/urllib/AuthService.py（支持基础验证的web服务器）
+    src/urllib/Authorization.py（设置Authorization）
+    src/urllib/BasicAuth.py(封装请求字段数据)
+7. 代理ip设置：src/urllib/HandlerDemo.py
+8. 读取和设置Cookie
