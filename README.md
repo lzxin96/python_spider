@@ -14,4 +14,6 @@
     src/urllib/Authorization.py（设置Authorization）
     src/urllib/BasicAuth.py(封装请求字段数据)
 7. 代理ip设置：src/urllib/HandlerDemo.py
-8. 读取和设置Cookie
+8. 读取和设置Cookie：
+    src/urllib/CookieServer.py(设置Cookie服务器)
+    src/urllib/CookieBasic.py(获取cookie)
