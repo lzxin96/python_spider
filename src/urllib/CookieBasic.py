@@ -3,11 +3,13 @@ import http.cookiejar, urllib.request
 
 # 创建CookieJar对象
 cookie = http.cookiejar.CookieJar()
-# 创建HTTPCookieProcessor对象
+# 创建HTTPCookieProcessor对象,创建cookie处理器对象
 handler = urllib.request.HTTPCookieProcessor(cookie)
+# 构建opener
 opener = urllib.request.build_opener(handler)
 # 给http://baidu.com发送请求,并获取相应数据
-response = opener.open('http://baidu.com')
+# 以get方法访问页面，访问之后会自动保存cookie到cookiejar中
+response = opener.open('https://www.csdn.net/')
 print('-------------http://baidu.com-------------')
 
 # 输出服务端发送的所有Cookie
