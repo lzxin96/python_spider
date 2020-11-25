@@ -17,3 +17,5 @@
 8. 读取和设置Cookie：
     src/urllib/CookieServer.py(设置Cookie服务器)
     src/urllib/CookieBasic.py(获取cookie)
+9. 保存cookie为Mozilla格式和LWP格式：src/urllib/CookieFile.py
+10. 向服务器发送本地cookie文件：src/urllib/LoadCookie.py
