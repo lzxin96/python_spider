@@ -8,5 +8,5 @@ handler = urllib.request.HTTPCookieProcessor(cookie)
 opener = urllib.request.build_opener(handler)
 response = opener.open('http://127.0.0.1:5000/readCookie')
 # for item in cookie:
-#     print(item.name + '=' + item.value)
+#     print(item.name + ' = ' + item.value)
 print(response.read().decode('utf-8'))
