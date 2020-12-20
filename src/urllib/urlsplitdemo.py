@@ -3,7 +3,7 @@ from urllib.parse import urlsplit,urlunsplit
 result = urlsplit('https://search.jd.com/Searchprint;hello?keyword=Python从菜鸟到高手&enc=utf-8#comment')
 print('scheme：',result.scheme)
 print('netloc：',result.netloc)
-print('path：',result.path)
+print('path：',result.path) # path=path+param
 print('query：',result.query)
 print('fragment：',result.fragment)
 print('-----------------')

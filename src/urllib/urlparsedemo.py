@@ -1,6 +1,6 @@
 from urllib.parse import urlparse,urlunparse
 
-#拆分URL
+#拆分URL,拆成6部分
 result = urlparse('https://search.jd.com/Secrchprint;hello?keyword=Python从菜鸟到高手&utf-8#comment')
 print('scheme:', result.scheme)
 print('netloc:', result.netloc)
