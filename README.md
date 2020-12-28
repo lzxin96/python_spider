@@ -26,3 +26,4 @@
 3. HTTP请求头 headers关键之
 4. HTTP响应头 response.info(),获取响应头字段信息
 5. 上传文件
+6. 超时
