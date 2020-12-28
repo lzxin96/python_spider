@@ -21,4 +21,6 @@
 10. 向服务器发送本地cookie文件：src/urllib/LoadCookie.py
 11. robot协议：src/urllib/robotsdemo.py
 #### urllib3库实例
-1. 
+1. HTTP GET请求
+2. HTTP POST请求
+3. HTTP请求头

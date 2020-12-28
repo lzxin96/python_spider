@@ -1,0 +1,12 @@
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+accept-encoding: gzip, deflate, br
+accept-language: zh-CN,zh;q=0.9
+cache-control: max-age=0
+cookie: cna=lWBBGB4OmzgCAQ7b7VftG/k7; xlly_s=1; t=327f03344ed5b5ebd05da4f3a26d0d18; _tb_token_=ed338d3846aef; cookie2=122692112b1e5a7085db94a8771ff4b8; _med=dw:1536&dh:864&pw:1920&ph:1080&ist:0; res=scroll%3A1519*5454-client%3A1519*731-offset%3A1519*5454-screen%3A1536*864; pnm_cku822=098%23E1hvr9vUvbpvUvCkvvvvvjiWP2ch0jDbP2zW6jYHPmPZsj1Rn2LhljYWn2s91jnmi9hvCvvv9UUgvpvhvvvvvvgCvvpvvPMMvvhvC9vhvvCvpb9Cvm9vvvvvphvvvvvvvQCvpv3Svvv2vhCv2UhvvvWvphvWmpvvvQCvpvQEuvhvmvvv92SiO0OhkvhvC99vvOCgLQ9CvhQWX5UvC0K1IExrVutiBXxr6j7JhBr6kbmDYb8ram5G1W29e1rToGFhAnp7RAYVyO2vqbVQWl4vsRFE%2BFIlBqevD76fd56OfaClK24A; cq=ccp%3D1; isg=BGtrOJ7KsFs0GeyPENvRLYj1-o9VgH8CM9cYfN3oC6oBfIveZVS7UgDe0rwS3Nf6; tfstk=cgJcBFiLDI5fK6fkOx6Xxqx3qYiRZnGVldJyULiZyPqOcwvPiuFzT95oqZLDB51..; l=eBN79K4nO8i1ppo9BOfZourza77T-IRAguPzaNbMiOCP9w595pZfWZ-sy-LpCnGVh6WMR37kyyKBBeYBqI03ZtXttBALurHmn
+referer: https://www.tmall.com/
+sec-fetch-dest: document
+sec-fetch-mode: navigate
+sec-fetch-site: same-site
+sec-fetch-user: ?1
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
