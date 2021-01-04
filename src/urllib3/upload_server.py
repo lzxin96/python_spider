@@ -2,7 +2,7 @@ import os
 from flask import Flask, request
 
 # 定义服务端保存上传文件的位置
-UPLOAD_FOLDER = 'uploads'
+UPLOAD_FOLDER = 'D:/py_space/spider/python_spider/src/urllib3/uploads'
 app = Flask(__name__)
 # 用于接收上传文件的路由需要使用POST方法
 @app.route('/', methods=['POST'])

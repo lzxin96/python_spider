@@ -6,7 +6,7 @@ http = PoolManager()
 # 定义上传文件的客户端程序
 url = 'http://localhost:5000'
 while True:
-    # 输出上传文件的名字
+    # 输入上传文件的名字
     filename = input('请输入要上传的文件名字（必须在当前目录下）：')
     # 如果什么也未输入，退出循环
     if not filename:
@@ -18,3 +18,5 @@ while True:
     response = http.request('POST', url, fields={'file':(filename, fileData)})
     # 输出服务端的返回结果，本例是“文件上传成功”
     print(response.data.decode('utf-8'))
+
+# 需要输入全路径
