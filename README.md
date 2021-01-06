@@ -3,7 +3,7 @@
 #### 第一个爬虫实例
 * 爬取HTML文件中url：src/firstspider/MySpider.py
 * 爬取博客园标题和url：src/firstspider/BlogSpider.py
-#### urllib库实例
+#### urllib网络库实例
 1. urlopen函数发送http get请求：src/urllib/SendRequest.py
 2. urlopen函数发送http post请求：src/urllib/PostRequest.py
 3. 服务器请求超时异常处理（try...except)：src/urllib/TimeOut.py
@@ -20,10 +20,12 @@
 9. 保存cookie为Mozilla格式和LWP格式：src/urllib/CookieFile.py
 10. 向服务器发送本地cookie文件：src/urllib/LoadCookie.py
 11. robot协议：src/urllib/robotsdemo.py
-#### urllib3库实例
+#### urllib3网络库实例
 1. HTTP GET请求
 2. HTTP POST请求
 3. HTTP请求头 headers关键之
 4. HTTP响应头 response.info(),获取响应头字段信息
 5. 上传文件
-6. 超时
+6. 连接超时、读超时
+#### requests网络库库实例
+1. 
