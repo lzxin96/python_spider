@@ -3,6 +3,8 @@
 #### 第一个爬虫实例
 * 爬取HTML文件中url：src/firstspider/MySpider.py
 * 爬取博客园标题和url：src/firstspider/BlogSpider.py
+---------------------------
+### 网络库
 #### urllib网络库实例
 1. urlopen函数发送http get请求：src/urllib/SendRequest.py
 2. urlopen函数发送http post请求：src/urllib/PostRequest.py
@@ -37,3 +39,15 @@
 7. 处理Cookie
 8. 使用同一个会话Session
 9. SSL证书验证
+10. 使用代理
+11. 超时
+12. 身份验证
+13. 将请求打包
+#### Twisted网络框架
+1. 异步编程模型
+2. Reactor（反应堆）模式
+3. Twisted实现时间戳客户端
+4. Twisted实现时间戳服务端
+--------------------------
+### 解析库
+#### 正则表达式
