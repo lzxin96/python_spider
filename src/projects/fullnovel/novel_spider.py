@@ -12,7 +12,7 @@ def getCatelogs(url):
     # 发送请求
     response = request.urlopen(req)
     # 返回数据
-    result =[]
+    result = []
     if response.status == 200:
         # 读取界面
         html = response.read().decode('utf-8')

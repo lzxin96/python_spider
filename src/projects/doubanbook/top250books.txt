@@ -1,0 +1,25 @@
+{"name": ["红楼梦"], "url": ["https://book.douban.com/subject/1007305/"], "author": "[清] 曹雪芹 著 ", "publisher": " 人民文学出版社 ", "date": " 1996-12 ", "price": " 59.70元"}
+{"name": ["活着"], "url": ["https://book.douban.com/subject/4913064/"], "author": "余华 ", "publisher": " 作家出版社 ", "date": " 2012-8-1 ", "price": " 20.00元"}
+{"name": ["1984"], "url": ["https://book.douban.com/subject/4820710/"], "author": "[英] 乔治·奥威尔 ", "publisher": " 北京十月文艺出版社 ", "date": " 2010-4-1 ", "price": " 28.00"}
+{"name": ["百年孤独"], "url": ["https://book.douban.com/subject/6082808/"], "author": "[哥伦比亚] 加西亚·马尔克斯 ", "publisher": " 南海出版公司 ", "date": " 2011-6 ", "price": " 39.50元"}
+{"name": ["飘"], "url": ["https://book.douban.com/subject/1068920/"], "author": "[美国] 玛格丽特·米切尔 ", "publisher": " 译林出版社 ", "date": " 2000-9 ", "price": " 40.00元"}
+{"name": ["三体全集"], "url": ["https://book.douban.com/subject/6518605/"], "author": "刘慈欣 ", "publisher": " 重庆出版社 ", "date": " 2012-1-1 ", "price": " 168.00元"}
+{"name": ["三国演义（全二册）"], "url": ["https://book.douban.com/subject/1019568/"], "author": "[明] 罗贯中 ", "publisher": " 人民文学出版社 ", "date": " 1998-05 ", "price": " 39.50元"}
+{"name": ["房思琪的初恋乐园"], "url": ["https://book.douban.com/subject/27614904/"], "author": "林奕含 ", "publisher": " 北京联合出版公司 ", "date": " 2018-1 ", "price": " 45.00元"}
+{"name": ["动物农场"], "url": ["https://book.douban.com/subject/2035179/"], "author": "[英] 乔治·奥威尔 ", "publisher": " 上海译文出版社 ", "date": " 2007-3 ", "price": " 10.00元"}
+{"name": ["福尔摩斯探案全集（上中下）"], "url": ["https://book.douban.com/subject/1040211/"], "author": "[英] 阿·柯南道尔 ", "publisher": " 1981-8 ", "date": " 53.00元", "price": "68.00元"}
+{"name": ["白夜行"], "url": ["https://book.douban.com/subject/10554308/"], "author": "[日] 东野圭吾 ", "publisher": " 南海出版公司 ", "date": " 2013-1-1 ", "price": " 39.50元"}
+{"name": ["小王子"], "url": ["https://book.douban.com/subject/1084336/"], "author": "[法] 圣埃克苏佩里 ", "publisher": " 人民文学出版社 ", "date": " 2003-8 ", "price": " 22.00元"}
+{"name": ["天龙八部"], "url": ["https://book.douban.com/subject/1255625/"], "author": "金庸 ", "publisher": " 生活·读书·新知三联书店 ", "date": " 1994-5 ", "price": " 96.00元"}
+{"name": ["撒哈拉的故事"], "url": ["https://book.douban.com/subject/1060068/"], "author": "三毛 ", "publisher": " 哈尔滨出版社 ", "date": " 2003-8 ", "price": " 15.80元"}
+{"name": ["安徒生童话故事集"], "url": ["https://book.douban.com/subject/1046209/"], "author": "（丹麦）安徒生 ", "publisher": " 人民文学出版社 ", "date": " 1997-08 ", "price": " 25.00元"}
+{"name": ["冰与火之歌（卷一）"], "url": ["https://book.douban.com/subject/1336330/"], "author": "[美] 乔治·R. R. 马丁 ", "publisher": " 重庆出版社 ", "date": " 2005-5 ", "price": " 68.00元"}
+{"name": ["杀死一只知更鸟"], "url": ["https://book.douban.com/subject/6781808/"], "author": "[美] 哈珀·李 ", "publisher": " 译林出版社 ", "date": " 2012-9 ", "price": " 32.00元"}
+{"name": ["哈利·波特"], "url": ["https://book.douban.com/subject/24531956/"], "author": "J.K.罗琳 (J.K.Rowling) ", "publisher": " 人民文学出版社 ", "date": " 2008-12-1 ", "price": " 498.00元"}
+{"name": ["沉默的大多数"], "url": ["https://book.douban.com/subject/1054685/"], "author": "王小波 ", "publisher": " 中国青年出版社 ", "date": " 1997-10 ", "price": " 27.00元"}
+{"name": ["明朝那些事儿（1-9）"], "url": ["https://book.douban.com/subject/3674537/"], "author": "当年明月 ", "publisher": " 中国海关出版社 ", "date": " 2009-4 ", "price": " 358.20元"}
+{"name": ["局外人"], "url": ["https://book.douban.com/subject/4908885/"], "author": "[法] 阿尔贝·加缪 ", "publisher": " 上海译文出版社 ", "date": " 2010-8 ", "price": " 22.00元"}
+{"name": ["人类简史"], "url": ["https://book.douban.com/subject/25985021/"], "author": "[以色列] 尤瓦尔·赫拉利 ", "publisher": " 中信出版社 ", "date": " 2014-11 ", "price": " CNY 68.00"}
+{"name": ["围城"], "url": ["https://book.douban.com/subject/1008145/"], "author": "钱锺书 ", "publisher": " 人民文学出版社 ", "date": " 1991-2 ", "price": " 19.00"}
+{"name": ["平凡的世界（全三部）"], "url": ["https://book.douban.com/subject/1200840/"], "author": "路遥 ", "publisher": " 人民文学出版社 ", "date": " 2005-1 ", "price": " 64.00元"}
+{"name": ["霍乱时期的爱情"], "url": ["https://book.douban.com/subject/10594787/"], "author": "[哥伦比亚] 加西亚·马尔克斯 ", "publisher": " 南海出版公司 ", "date": " 2012-9-1 ", "price": " 39.50元"}

@@ -1,39 +1,51 @@
-from urllib import request
+import requests
 import re
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36'
+    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36'
 }
 
-# 获取页面
-def getPage(url):
-    req = request.Request(url, headers=headers, method="GET")
-    response = request.urlopen(req)
-    result = []
-    if response.stats == 200:
-        html = response.read().decode('utf=8')
-        aList = re.findall('<li>.*</li>', html)
-        for a in aList:
-            g = re.findall('href="([^">]*)"[\s]*title="([^">])"', a)
-            if g != None:
-                url = 'http://www.doupoxs.com' + g.group(1)
-                title = g.group(2)
-                chapter = {'url':url, 'title':title}
-                result.append(chapter)
-    return result
+jokeLists = []
+def verifySex(class_name):
+    if class_name == 'womenIcon':
+        return '女'
+    else:
+        return '男'
 
-# 抓取文章内容
-def getContent(chapters):
-    for chapter in chapters:
-        req = request.Request(url=chapter['url'], headers=headers, method="GET")
-        response = request.urlopen(req)
-        if response.status == 200:
-            new_title = re.sub('\?', ' ', chapter['title'])
-            f = open('novel/' + new_title + '.txt', 'a+', encoding="UTF-8")
-            contents = re.findall('<p>(.*?)</p>', response.read().decode("utf-8"))
-            for content in contents:
-                f.write(content + '\n')
-            f.close()
-            print(chapter['title'], chapter['url'])
+def getJoke(url):
+    res = requests.get(url)
+    ids = re.findall('<h2>(.*?)</h2>', res.text, re.S)
+    levels = re.findall('<div class="articleGender \D+Icon">(.*?)</div>', res.text, re.S)
+    sexs = re.findall('<div class="articleGender (.*?)>', res.text, re.S)
+    contents = re.findall('<div class="content">.*?<span>(.*?)</span>', res.text, re.S)
+    laughs = re.findall('<span class="stats-vote"><i class="number">(\d+)</i>', res.text, re.S)
+    comments = re.findall('<i class="number">(\d+)</i>', res.text, re.S)
 
-getContent(getPage('http://www.doupoxs.com/nalanwudi'))
+    for id, level, sex, content, laugh, comment in zip(ids, levels, sexs, contents, laughs, comments):
+        # 获得每个段子相关的数据
+        info = {
+            'id':id,
+            'level':level,
+            'sex':verifySex(sex),
+            'content':content,
+            'laugh':laugh,
+            'comment':comment
+        }
+        jokeLists.append(info)
+
+urls = ['http://www.qiushibaike.com/text/page/{}/'.format(str(i)) for i in range(1,31)]
+for url in urls:
+    getJoke(url)
+
+for joke in jokeLists:
+    f = open('./jokes.txt', 'a+', encoding='utf-8')
+    try:
+        f.write(joke['id']+'\n')
+        f.write(joke['level'] + '\n')
+        f.write(joke['sex'] + '\n')
+        f.write(joke['content'] + '\n')
+        f.write(joke['laugh'] + '\n')
+        f.write(joke['comment'] + '\n\n')
+        f.close()
+    except UnicodeEncodeError:
+        pass
