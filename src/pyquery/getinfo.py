@@ -32,7 +32,7 @@ print(result[0].tag)
 print(result[1].tag)
 print('-------获取属性---------')
 print('value1:', result[0].get('value1'))
-
+# attr方法或属性都只取第1个节点相应的属性值
 print('value2:', result.attr('value2'))
 print('value2:', result.attr.value2)
 
@@ -44,20 +44,24 @@ for li in result.items():
 for li in result:
     print(type(li))
     print(li.get('value2'))
+
 print('--------获取文本--------')
-# 获取文本
+# text方法获取该节点下所有文本
 print(result.text())
 print('result.text()的类型：', type(result.text()))
+# text属性获取该节点文本
 from urllib.parse import quote, unquote
-
 for node in result:
     print(node.text)
+
 print('-------节点HTML代码--------')
 from lxml import etree
 for node in result:
+    # 获取查询结果中每一个节点的王铮HTML代码
     print(
         str(etree.tostring(node, pretty_print=True, encoding='utf-8'),
-            'utf-8'))
-
+            'utf-8')
+    )
+# html()方法只能返回第一个节点的内部代码
 print('-------获取节点内部HTML代码---------')
 print(result.html())
