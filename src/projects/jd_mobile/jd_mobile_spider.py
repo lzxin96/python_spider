@@ -32,10 +32,10 @@ def parse_one_page(html):
     # 处理每个li节点，这里必须使用items函数获得每个li节点，这样才能获得PyQuery对象
     for li in liList.items():
         # 获取手机产品名称
-        product = li(' div > div.p-name.p-name-type-2 > a > em')[0].text
+        product = li(' div > div.p-name.p-name-type-2 > a > em').text()
         # 如果None，说明是京东精选，要使用另一个CSS选择器
-        if product is None:
-            product = li(' div > div.p-name.p-name-type-2 > a').attr('title')
+        # if product is None:
+        #     product = li(' div > div.p-name.p-name-type-2 > a').attr('title')
         # 获取产品价格
         price = li(' div > div.p-price > strong > i').text()
         # 获取产品卖家
